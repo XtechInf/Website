@@ -1,6 +1,9 @@
-# Website
+# Website (public)
 
+type `bash setup.sh` first.
 type `bash php.sh` into youre **LINUX** terminal
-enter youre port which can be pretty much anything number you want to 9999
-and then youre all set
-type _localhost_ into youre browser and there should be a website
+then **OPEN ANOTHER TERMINAL** in the same directory.
+type `bash public.sh`
+enter whatever you want the subdomain to be
+then a url should show.
+Thats your public url
