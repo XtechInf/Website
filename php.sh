@@ -19,8 +19,9 @@ fi
 
 sudo php -S 0.0.0.0:80 &
 PHP_SERVER_PID=$!
+echo "$PHP_SERVER_PID"
 
-sleep 5
+sleep 2
 
 if ps -p $PHP_SERVER_PID > /dev/null; then
     echo "PHP server (PID: $PHP_SERVER_PID) started successfully."
