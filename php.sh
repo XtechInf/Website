@@ -20,3 +20,4 @@ fi
 
 
 sudo php -S 0.0.0.0:80 &
+ssh -R 80:127.0.0.1:80 localhost.run
