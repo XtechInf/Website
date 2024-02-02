@@ -13,10 +13,10 @@ else
     if [ $? -eq 0 ]; then
         echo "Installation of $package_name successful."
     else
-        echo "Failed to install $package_name. Please check your internet co>
+        echo "Failed to install $package_name. Please check your internet connection"
         exit 1
     fi
 fi
 
 
-sudo php -S 0.0.0.0:80
+sudo php -S 0.0.0.0:80 &
