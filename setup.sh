@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo apt install npm
-sudo npm install -g localtunnel
+sudo apt-get install openssh-server -y
+
 ssh-keygen
